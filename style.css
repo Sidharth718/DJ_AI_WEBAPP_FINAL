@@ -1,0 +1,53 @@
+
+canvas{
+border-radius:75px;
+border:10px solid white 
+}
+
+#Play{
+width: 300px;    
+height: 50px;
+font-size:20px ;
+margin-top:140px;
+margin-bottom:50px;
+}
+
+#footer{
+bottom: 0;
+position: fixed;
+width: 100%;
+background-color: green; 
+color: white;
+padding: 10px;
+font-size: 20px;   
+}
+
+#heading{
+background-color: lightgreen;
+top: 0;
+position: fixed;
+padding: 10px;    
+}
+
+img{
+border-radius:35px;    
+}
+
+#speed{
+    float: left;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+#volume{
+    float: right;
+    margin-top: -39px;
+}
+
+body{
+background-image: url("background.jpg");    
+}
+
+#volume-value,#speed-value{
+font-size: 30px;
+}

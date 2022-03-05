@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<center>
+ <div id="heading">
+   <h3>
+     AI DJ WEB 
+     <br>
+     <span>
+Note - Move your left wrist up and down to increase and decrease the volume. Move your right wrist up and down to increase and decrease the speed.
+     </span>
+   </h3>
+   
+ </div>
+ <div id="speed" class="col-lg-3 col-md-3 col-sm-3">
+   
+  <img src="disk.gif" width = "200px "> 
+
+  <br>
+   
+   <h3 id="speed-value" class = "btn btn-success">Speed - <span id="speed_value"></span></h3>
+ 
+  </div>
+ <div class="col-lg-6 col-md-6 col-sm-6">
+  <button id="Play" class="btn btn-primary" onclick = "Music_button()">Play</button>
+
+ </div>
+ <div id="volume" class="col-lg-3 col-md-3 col-sm-3">
+   
+  <img src="disk.gif" width = "200px "> 
+
+  <br>
+   
+   <h3 id="volume-value" class = "btn btn-success">Volume - <span id="volume_value"><span></h3>
+ 
+  </div>
+
+  
+
+
+<div id="footer">
+  <span>Developed By - Sidharth</span>
+</div>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
